@@ -29,43 +29,42 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
+          {/* <span className="image main">
             <img src={pic01} alt="" />
-          </span>
+          </span> */}
           <p>
-            We operate out of Apia, Samoa, in the Pacific and strive to pioneer
-            the cryptocurrency movement for the region with Cardano at the
-            forefront.
+            We are a small team of crypto enthusiasts operating out of Apia,
+            Samoa. Our mission is to pioneer the adoption of Cardano and
+            cryptocurrencies in the Pacific region.
           </p>
-          <p></p>
+          <p>
+            The team's background experience is in DevOps, Systems Development
+            and Web Design.
+          </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="tech"
+          className={`${this.props.article === 'tech' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
+          <h2 className="major">Tech</h2>
+          {/* <span className="image main">
             <img src={pic02} alt="" />
-          </span>
+          </span> */}
+          <h3>Secure Servers</h3>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            The TOA stake pool is hosted on the DigitalOcean cloud computing
+            platform.
           </p>
+          <h3>Performance</h3>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            We have been fine tuning the stake pool since the start of the
+            Haskell Test Network (HTN) and continue to monitor the performance
+            of the pool 24/7.
           </p>
           {close}
         </article>
@@ -78,17 +77,15 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
+          {/* <span className="image main"> */}
+          {/* <img src={pic03} alt="" /> */}
+          {/* </span> */}
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            The Cardano blockchain has transitioned from a federated,
+            centralized network over to a dynamic, decentralized network. Anyone
+            can now setup a cardano node and participate in the network. Holders
+            of the Cardano cryptocurrency ADA can delegate their tokens towards
+            a stake pool and earn rewards.
           </p>
           {close}
         </article>
@@ -101,7 +98,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -122,31 +119,25 @@ class Main extends React.Component {
                 <input type="reset" value="Reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
+          <p>
+            You can join our telegram channel{' '}
+            <a href="https://t.me/toapool">t.me/toapool</a> for all updates on
+            the node pool and any developments in the pipeline.
+          </p>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
+              <a href="https://t.me/toapool" className="icon fa-telegram">
+                <span className="label">Telegram</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="mailto: insamoa@pm.me" className="icon fa-inbox">
+                <span className="label">Email</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
+              <a href="https://github.com/tavitas" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>

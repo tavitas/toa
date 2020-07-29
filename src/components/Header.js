@@ -8,10 +8,16 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>TOA POOL</h1>
+        <h1>TOA CARDANO STAKE POOL</h1>
         <p>
-          We are a small team of crypto enthusiasts who believe that Cardano is
-          the future.
+          You have arrived at the home page for the TOA stake pool on the
+          Cardano network.
+        </p>
+        <p>
+          Ticker: <strong>TOA</strong>
+          <br></br>
+          Stake: <strong>80,000 ADA</strong>
+          <br></br>
         </p>
       </div>
     </div>
@@ -29,10 +35,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('tech')
             }}
           >
-            Work
+            Tech
           </button>
         </li>
         <li>
